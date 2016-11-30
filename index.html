@@ -31,44 +31,66 @@
           <h2>
 <a id="self-learning-clinic" class="anchor" href="#self-learning-clinic" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Self Learning Clinic</h2>
 
-<p></p><h4>
-<a id="front-end-tasks" class="anchor" href="#front-end-tasks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Front-End Tasks</h4>
+<p></p><h3>
+<a id="front-end-tasks" class="anchor" href="#front-end-tasks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Front-End Tasks</h3>
 
-<div>GitHub repo containing a clone of a simple user interface created using HTML and CSS.
-</div>
-<form action = "/submit">
+<p>GitHub repo containing a clone of a simple user interface created using HTML and CSS.</p>
+<form action = "">
   <table class = "table">
+    <h2>Please fill in your details</h2>
     <tr>
       <td>First Name</td>
       <td>Last Name</td>
     </tr>
     <tr>
       <td>
+        <p>
         <input type = "text" name = "firstname" placeholder = "first name" required>
+      </p>
       </td>
       <td>
+        <p>
         <input type = "text" name = "lastname" placeholder = "last name" required>
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td>Address</td>
+      <td>Email address</td>
+    </tr>
+    <tr>
+      <td>
+        <p>
+        <input type = "text" name = "address" placeholder = "home address" required>
+      </p>
+      </td>
+      <td>
+        <p>
+        <input type = "text" name = "email address" placeholder = "email address" required>
+      </p>
       </td>
     </tr>
     <tr>
       <td>Job Type</td>
-      <td>Life Interest</td>
+      <td>Interest</td>
     </tr>
     <tr>
       <td>
+        <p>
         <select name = "job type">
           <option value = "programmer">Programmer</option>
           <option value = "mathematician">Mathematician</option>
           <option value = "network analyst">Network Analyst</option>
           <option value = "others">Others</option>
         </select>
+        </p>
         <td>
-          <label name = "life interest"><input type="checkbox" name="interests">Wild Life</label>
-          <label name = "life interest"><input type="checkbox" name="interests">Games</label>
-          <label name = "life interest"><input type="checkbox" name="interests">Cooking</label>
-          <label name = "life interest"><input type="checkbox" name="interests">Travelling</label>
+          <p><label name = "interest"><input type="checkbox" name="interests">Wild Life</label>
+          <label name = "interest"><input type="checkbox" name="interests">Games</label></p>
+          <p><label name = "interest"><input type="checkbox" name="interests">Cooking</label>
+          <label name = "interest"><input type="checkbox" name="interests">Travelling</label></p>
         </td>
-        <td><button type = "submit">Submit</button></td>
+        <tr><td><button type = "submit">Submit</button></td></tr>
       </td>
     </tr>
   </table>
