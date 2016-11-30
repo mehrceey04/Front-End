@@ -36,6 +36,43 @@
 
 <div>GitHub repo containing a clone of a simple user interface created using HTML and CSS.
 </div>
+<form action = "/submit">
+  <table class = "table">
+    <tr>
+      <td>First Name</td>
+      <td>Last Name</td>
+    </tr>
+    <tr>
+      <td>
+        <input type = "text" name = "firstname" placeholder = "first name" required>
+      </td>
+      <td>
+        <input type = "text" name = "lastname" placeholder = "last name" required>
+      </td>
+    </tr>
+    <tr>
+      <td>Job Type</td>
+      <td>Life Interest</td>
+    </tr>
+    <tr>
+      <td>
+        <select name = "job type">
+          <option value = "programmer">Programmer</option>
+          <option value = "mathematician">Mathematician</option>
+          <option value = "network analyst">Network Analyst</option>
+          <option value = "others">Others</option>
+        </select>
+        <td>
+          <label name = "life interest"><input type="checkbox" name="interests">Wild Life</label>
+          <label name = "life interest"><input type="checkbox" name="interests">Games</label>
+          <label name = "life interest"><input type="checkbox" name="interests">Cooking</label>
+          <label name = "life interest"><input type="checkbox" name="interests">Travelling</label>
+        </td>
+        <td><button type = "submit">Submit</button></td>
+      </td>
+    </tr>
+  </table>
+</form>
         </section>
 
         <aside id="sidebar">
@@ -54,7 +91,5 @@
         </aside>
       </div>
     </div>
-
-  
   </body>
 </html>
