@@ -1,6 +1,0 @@
-{
-  "name": "Front-end",
-  "tagline": "Front End Web Development: Using GitHub to start developing HTML and CSS web pages ",
-  "body": "<h2>Self Learning Clinic</h2>\r\n<p><h4>Front-End Tasks</h4></p>\r\n\r\n<div>GitHub repo containing a clone of a simple user interface created using HTML and CSS.\r\n</div>",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
